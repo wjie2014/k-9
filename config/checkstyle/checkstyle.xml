@@ -94,9 +94,6 @@
             <property name="allowLineBreaks" value="true"/>
         </module>
 
-        <module name="OperatorWrap">
-            <property name="option" value="eol"/>
-        </module>
         <module name="PackageName">
             <property name="severity" value="warning"/>
         </module>
@@ -125,12 +122,17 @@
         <!--
         <module name="MissingSwitchDefault"/>
         <module name="MagicNumber"/>
-        -->
-
         <module name="Indentation"/>
+
+        <module name="OperatorWrap">
+            <property name="option" value="eol"/>
+        </module>
+
         <module name="EqualsAvoidNull">
             <property name="severity" value="warning"/>
         </module>
+        -->
+
         <module name="ParameterAssignment">
             <property name="severity" value="warning"/>
         </module>
